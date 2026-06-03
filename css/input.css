@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme{
+    --color-nigeria-green: #00A86B;
+    --color-nigeria-green-pale:#E8F5E9;
+    --color-nigeria-green-dark:#006B41;
+    --color-nigeria-green-light:#008751;
+    --color-nigeria-green-darker: #004D2E;
+    --color-about-green-light: #00A86B;
+    --color-green-faint:#F0FDF4;
+    
+
+}

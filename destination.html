@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploreNajia - Destinations Banner</title>
+    <!-- Tailwind CSS CDN -->
+    <link rel="stylesheet" href="./css/output.css">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+<body class="font-sans antialiased bg-gray-50">
+      <header>
+        <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                
+                <!-- Logo -->
+                <a href="#" class="flex items-center space-x-2">
+                    <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+                    </svg>
+                    <span class="text-2xl font-bold text-gray-800">
+                        Explore<span class="text-green-600">Najia</span>
+                    </span>
+                </a>
+
+                <!-- Desktop Menu (6 items) -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-green-600 font-semibold transition-colors duration-200">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-green-600 font-semibold transition-colors duration-200">About Us</a>
+                    <a href="destination.html" class="text-gray-600 hover:text-green-600 font-semibold transition-colors duration-200">Destination</a>
+                    <a href="packages.html" class="text-gray-600 hover:text-green-600 font-semibold transition-colors duration-200">Packages</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-green-600 font-semibold transition-colors duration-200">Contact</a>
+                 
+                    
+                    <!-- CTA Button -->
+                    <a href="#" class="bg-green-600 text-white px-6 py-2.5 rounded-full font-semibold hover:bg-green-700 transition-colors duration-200 shadow-md">
+                        Book Now
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Toggle (Checkbox Hack) -->
+                <div class="md:hidden">
+                    <label for="menu-toggle" class="cursor-pointer p-2 text-gray-600 hover:text-green-600 transition-colors">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </label>
+                    <input type="checkbox" id="menu-toggle" class="hidden peer">
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Peer-checked) -->
+        <div class="hidden peer-checked:block md:hidden bg-white border-t border-gray-100">
+            <div class="px-4 py-3 space-y-1">
+                <a href="#" class="block px-4 py-3 rounded-lg text-gray-700 font-medium hover:bg-blue-50 hover:text-green-600 transition-colors">Home</a>
+                <a href="#" class="block px-4 py-3 rounded-lg text-gray-700 font-medium hover:bg-blue-50 hover:text-green-600 transition-colors">Destinations</a>
+                <a href="#" class="block px-4 py-3 rounded-lg text-gray-700 font-medium hover:bg-blue-50 hover:text-green-600 transition-colors">Packages</a>
+                <a href="#" class="block px-4 py-3 rounded-lg text-gray-700 font-medium hover:bg-blue-50 hover:text-green-600 transition-colors">Tours</a>
+                <a href="#" class="block px-4 py-3 rounded-lg text-gray-700 font-medium hover:bg-blue-50 hover:text-green-600 transition-colors">About</a>
+                <a href="#" class="block px-4 py-3 rounded-lg text-gray-700 font-medium hover:bg-blue-50 hover:text-green-600 transition-colors">Contact</a>
+                <div class="pt-2 pb-1">
+                    <a href="#" class="block w-full text-center bg-green-600 text-black px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <!-- ============================================
+         DESTINATIONS BANNER SECTION START
+         First section on the Destinations page
+         Full-width hero banner with background image
+    ============================================ -->
+    <section class="relative w-full min-h-[500px] sm:min-h-[600px] lg:min-h-[700px] flex items-center justify-center overflow-hidden">
+
+        <!-- ============================================
+             BACKGROUND IMAGE LAYER
+             Breathtaking Nigerian mountain landscape
+             with winding roads through lush green hills
+        ============================================ -->
+        <div class="absolute inset-0 w-full h-full">
+            <!-- Background image of Nigerian mountain landscape -->
+            <img 
+                src="https://kimi-web-img.moonshot.cn/img/nigeriaeverywhere.com/b4f277a5068394a5bda26384801ca8c7baf9837d" 
+                alt="Beautiful Nigerian mountain landscape with winding roads"
+                class="w-full h-full object-cover object-center"
+            >
+            
+            <!-- ============================================
+                 DARK OVERLAY
+                 Multi-layer overlay for text readability
+                 Green-tinted for brand consistency
+            ============================================ -->
+            <!-- Primary dark overlay -->
+            <div class="absolute inset-0 bg-black/50"></div>
+            <!-- Secondary green tint overlay -->
+            <div class="absolute inset-0 bg-nigeria-green/30 mix-blend-multiply"></div>
+            <!-- Gradient overlay for depth -->
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/40"></div>
+        </div>
+
+        <!-- ============================================
+             CONTENT CONTAINER
+             Centered content with responsive padding
+        ============================================ -->
+        <div class="relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+
+            <!-- ============================================
+                 BADGE
+                 Small pill badge above the heading
+            ============================================ -->
+            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-6">
+                <!-- Map pin icon -->
+                <svg class="w-4 h-4 text-nigeria-green-pale" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                </svg>
+                <span class="text-white text-sm font-semibold tracking-wide uppercase">Discover Nigeria</span>
+            </div>
+
+            <!-- ============================================
+                 MAIN HEADING
+                 Large bold text encouraging exploration
+            ============================================ -->
+            <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white leading-tight mb-6">
+                Explore Nigeria's<br>
+                <span class="text-nigeria-green-pale">Amazing Destinations</span>
+            </h1>
+
+            <!-- ============================================
+                 SHORT PARAGRAPH
+                 Encourages visitors to discover natural wonders,
+                 historical landmarks, and cultural attractions
+            ============================================ -->
+            <p class="text-base sm:text-lg md:text-xl text-white/90 max-w-3xl mx-auto leading-relaxed mb-10">
+                From the misty peaks of the Obudu Plateau to the ancient walls of Kano, 
+                Nigeria is a treasure trove of natural wonders, historical landmarks, and vibrant cultural attractions. 
+                Let us guide you to the places that will take your breath away.
+            </p>
+
+            <!-- ============================================
+                 CALL-TO-ACTION BUTTONS
+                 Two buttons: Explore Destinations (primary) + Travel Guides (secondary)
+            ============================================ -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
+
+                <!-- ============================================
+                     PRIMARY CTA: EXPLORE DESTINATIONS
+                     White button with green text - main action
+                ============================================ -->
+                <a href="#" class="w-full sm:w-auto group inline-flex items-center justify-center gap-3 bg-white text-nigeria-green font-bold text-lg px-8 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-2xl hover:scale-105 hover:bg-nigeria-green-pale">
+                    <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                    </svg>
+                    Explore Destinations
+                </a>
+
+                <!-- ============================================
+                     SECONDARY CTA: TRAVEL GUIDES
+                     Transparent button with white border - alternative action
+                ============================================ -->
+                <a href="#" class="w-full sm:w-auto group inline-flex items-center justify-center gap-3 bg-transparent text-white font-bold text-lg px-8 py-4 rounded-full border-2 border-white/40 hover:border-white hover:bg-white/10 transition-all duration-300 hover:scale-105">
+                    <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                    </svg>
+                    Travel Guides
+                </a>
+
+            </div>
+
+            <!-- ============================================
+                 DECORATIVE ACCENT LINE
+                 Green line for visual separation
+            ============================================ -->
+            <div class="w-24 h-1 bg-nigeria-green-pale mx-auto mt-12 rounded-full"></div>
+
+        </div>
+        <!-- End of Content Container -->
+
+    </section>
+    <!-- ============================================
+         DESTINATIONS BANNER SECTION END
+    ============================================ -->
+
+
+
+    <!-- ============================================
+         SEARCH & FILTER SECTION START
+         Appears directly below the Destinations Banner
+         Allows users to search and filter destinations
+    ============================================ -->
+    <section class="w-full py-12 sm:py-16 lg:py-20 bg-white ">
+
+        <!-- ============================================
+             SECTION CONTAINER
+             Max-width container with responsive padding
+        ============================================ -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- ============================================
+                 SECTION HEADER
+                 Title + introductory paragraph centered
+            ============================================ -->
+            <div class="text-center mb-8 sm:mb-10 lg:mb-12">
+
+                <!-- Section Title -->
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 mb-3 tracking-tight">
+                    Find Your <span class="text-nigeria-green">Perfect Destination</span>
+                </h2>
+
+                <!-- Decorative underline -->
+                <div class="w-20 h-1 bg-nigeria-green mx-auto rounded-full mb-4"></div>
+
+                <!-- Introductory Paragraph -->
+                <p class="text-sm sm:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                    Search and filter through Nigeria's most incredible destinations. Whether you're looking for 
+                    sandy beaches, majestic waterfalls, or historic landmarks — your next adventure is just a click away.
+                </p>
+            </div>
+
+            <!-- ============================================
+                 SEARCH & FILTER FORM
+                 Responsive layout: stacked mobile, row desktop
+            ============================================ -->
+            <div class="bg-nigeria-green-faint rounded-2xl p-4 sm:p-6 lg:p-8 shadow-lg border border-nigeria-green-pale">
+
+                <!-- 
+                    Grid layout:
+                    - Mobile: 1 column (stacked vertically)
+                    - Tablet: 2 columns
+                    - Desktop: 4 columns (search + 2 filters + button in one row)
+                -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-4 lg:gap-5 items-end">
+
+                    <!-- ============================================
+                         SEARCH INPUT
+                         Text search with icon
+                         Full width on all screens
+                    ============================================ -->
+                    <div class="sm:col-span-2 lg:col-span-1">
+                        <label for="search" class="block text-sm font-semibold text-gray-700 mb-2">Search</label>
+                        <div class="relative">
+                            <!-- Search Icon -->
+                            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                                </svg>
+                            </div>
+                            <!-- Search Input Field -->
+                            <input 
+                                type="text" 
+                                id="search" 
+                                placeholder="Search destinations..." 
+                                class="w-full pl-10 pr-4 py-3 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-nigeria-green focus:border-transparent transition-all duration-300 shadow-sm hover:shadow-md"
+                            >
+                        </div>
+                    </div>
+
+                    <!-- ============================================
+                         REGION FILTER DROPDOWN
+                         Filter by geographical region
+                    ============================================ -->
+                    <div>
+                        <label for="region" class="block text-sm font-semibold text-gray-700 mb-2">Region</label>
+                        <div class="relative">
+                            <!-- Location Icon -->
+                            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                </svg>
+                            </div>
+                            <!-- Region Select -->
+                            <select 
+                                id="region" 
+                                class="w-full pl-10 pr-10 py-3 bg-white border border-gray-200 rounded-xl text-gray-900 appearance-none focus:outline-none focus:ring-2 focus:ring-nigeria-green focus:border-transparent transition-all duration-300 shadow-sm hover:shadow-md cursor-pointer"
+                            >
+                                <option value="" selected>All Regions</option>
+                                <option value="north">North</option>
+                                <option value="south">South</option>
+                                <option value="east">East</option>
+                                <option value="west">West</option>
+                            </select>
+                            <!-- Dropdown Arrow -->
+                            <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
+                                <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ============================================
+                         CATEGORY FILTER DROPDOWN
+                         Filter by destination type
+                    ============================================ -->
+                    <div>
+                        <label for="category" class="block text-sm font-semibold text-gray-700 mb-2">Category</label>
+                        <div class="relative">
+                            <!-- Tag/Category Icon -->
+                            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/>
+                                </svg>
+                            </div>
+                            <!-- Category Select -->
+                            <select 
+                                id="category" 
+                                class="w-full pl-10 pr-10 py-3 bg-white border border-gray-200 rounded-xl text-gray-900 appearance-none focus:outline-none focus:ring-2 focus:ring-nigeria-green focus:border-transparent transition-all duration-300 shadow-sm hover:shadow-md cursor-pointer"
+                            >
+                                <option value="" selected>All Categories</option>
+                                <option value="beaches">Beaches</option>
+                                <option value="waterfalls">Waterfalls</option>
+                                <option value="national-parks">National Parks</option>
+                                <option value="historical-sites">Historical Sites</option>
+                                <option value="mountains">Mountains</option>
+                                <option value="cultural-attractions">Cultural Attractions</option>
+                            </select>
+                            <!-- Dropdown Arrow -->
+                            <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
+                                <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ============================================
+                         SEARCH BUTTON
+                         Green CTA button to apply filters
+                    ============================================ -->
+                    <div>
+                        <button 
+                            type="button" 
+                            class="w-full group inline-flex items-center justify-center gap-2 bg-nigeria-green hover:bg-nigeria-green-dark text-white font-bold text-base px-6 py-3 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-nigeria-green focus:ring-offset-2"
+                        >
+                            <svg class="w-5 h-5 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                            </svg>
+                            Search
+                        </button>
+                    </div>
+
+                </div>
+                <!-- End of Grid -->
+
+            </div>
+            <!-- End of Form Container -->
+
+        </div>
+        <!-- End of Section Container -->
+
+    </section>
+    <!-- ============================================
+         SEARCH & FILTER SECTION END
+    ============================================ -->
+
+
+
+
+    <!-- ============================================
+         FEATURED DESTINATIONS SECTION START
+         Appears directly below the Search & Filter section
+         Displays 6 destination cards in a responsive grid
+    ============================================ -->
+    <section class="w-full py-16 sm:py-20 lg:py-24 bg-nigeria-green-faint">
+
+        <!-- ============================================
+             SECTION CONTAINER
+             Max-width container with responsive padding
+        ============================================ -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- ============================================
+                 SECTION HEADER
+                 Title + introductory paragraph centered
+            ============================================ -->
+            <div class="text-center mb-12 sm:mb-16">
+
+                <!-- Section Title -->
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4 tracking-tight">
+                    Featured <span class="text-nigeria-green">Destinations</span>
+                </h2>
+
+                <!-- Decorative underline -->
+                <div class="w-24 h-1 bg-nigeria-green mx-auto rounded-full mb-6"></div>
+
+                <!-- Introductory Paragraph -->
+                <p class="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    Discover some of Nigeria's most popular attractions — from ancient rock formations and 
+                    thundering waterfalls to lush mountain resorts and wildlife havens. Each destination tells a unique story.
+                </p>
+            </div>
+
+            <!-- ============================================
+                 DESTINATIONS CARDS GRID
+                 6 responsive destination cards
+                 1 column mobile → 2 columns tablet → 3 columns desktop
+                 All cards have equal height (h-full)
+            ============================================ -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+
+                <!-- ============================================
+                     CARD 1: ZUMA ROCK
+                     Niger State - Historical Landmark
+                ============================================ -->
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-nigeria-green/20 flex flex-col h-full hover:-translate-y-2">
+                    
+                    <!-- Destination Image -->
+                    <div class="relative h-52 sm:h-56 overflow-hidden">
+                        <img 
+                            src="https://kimi-web-img.moonshot.cn/img/dynamic-media-cdn.tripadvisor.com/c42521510d0c0d43dbdae635fd1fc3bce68d9e85.jpg" 
+                            alt="Zuma Rock in Niger State, Nigeria"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                        >
+                        <!-- Category Badge -->
+                        <div class="absolute top-4 left-4 bg-nigeria-green text-white text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider">
+                            Historical Landmark
+                        </div>
+                        <!-- Image overlay on hover -->
+                        <div class="absolute inset-0 bg-nigeria-green/0 group-hover:bg-nigeria-green/10 transition-colors duration-500"></div>
+                    </div>
+
+                    <!-- Card Content -->
+                    <div class="p-5 sm:p-6 flex flex-col flex-grow">
+                        <!-- Destination Name -->
+                        <h3 class="text-xl font-bold text-gray-900 mb-1 group-hover:text-nigeria-green transition-colors duration-300">
+                            Zuma Rock
+                        </h3>
+                        <!-- State/Location -->
+                        <div class="flex items-center gap-1.5 text-nigeria-green text-sm font-medium mb-3">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            Niger State
+                        </div>
+                        <!-- Short Description -->
+                        <p class="text-gray-600 text-sm leading-relaxed mb-5 flex-grow">
+                            Known as the "Gateway to Abuja," this monolithic rock stands 725 meters tall and is one of 
+                            Nigeria's most iconic natural landmarks, steeped in ancient folklore.
+                        </p>
+                        <!-- Learn More Button -->
+                        <a href="#" class="inline-flex items-center gap-2 text-nigeria-green font-semibold text-sm hover:text-nigeria-green-dark transition-colors duration-300 group/btn">
+                            Learn More
+                            <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ============================================
+                     CARD 2: OLUMO ROCK
+                     Ogun State - Historical Site
+                ============================================ -->
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-nigeria-green/20 flex flex-col h-full hover:-translate-y-2">
+                    
+                    <!-- Destination Image Placeholder -->
+                    <div class="relative h-52 sm:h-56 overflow-hidden bg-nigeria-green-pale flex items-center justify-center">
+                        <div class="text-center">
+                            <svg class="w-16 h-16 text-nigeria-green/40 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                            </svg>
+                            <span class="text-nigeria-green/50 text-sm font-medium">Olumo Rock</span>
+                        </div>
+                        <!-- Category Badge -->
+                        <div class="absolute top-4 left-4 bg-nigeria-green text-white text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider">
+                            Historical Site
+                        </div>
+                    </div>
+
+                    <!-- Card Content -->
+                    <div class="p-5 sm:p-6 flex flex-col flex-grow">
+                        <!-- Destination Name -->
+                        <h3 class="text-xl font-bold text-gray-900 mb-1 group-hover:text-nigeria-green transition-colors duration-300">
+                            Olumo Rock
+                        </h3>
+                        <!-- State/Location -->
+                        <div class="flex items-center gap-1.5 text-nigeria-green text-sm font-medium mb-3">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            Ogun State
+                        </div>
+                        <!-- Short Description -->
+                        <p class="text-gray-600 text-sm leading-relaxed mb-5 flex-grow">
+                            A massive granite outcrop in Abeokuta that served as a fortress for the Egba people during 
+                            inter-tribal wars. Climb to the top for panoramic views of the ancient city below.
+                        </p>
+                        <!-- Learn More Button -->
+                        <a href="#" class="inline-flex items-center gap-2 text-nigeria-green font-semibold text-sm hover:text-nigeria-green-dark transition-colors duration-300 group/btn">
+                            Learn More
+                            <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ============================================
+                     CARD 3: ERIN IJESHA WATERFALLS
+                     Osun State - Waterfall
+                ============================================ -->
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-nigeria-green/20 flex flex-col h-full hover:-translate-y-2">
+                    
+                    <!-- Destination Image -->
+                    <div class="relative h-52 sm:h-56 overflow-hidden">
+                        <img 
+                            src="https://kimi-web-img.moonshot.cn/img/dynamic-media-cdn.tripadvisor.com/2e2b06f0fc136e73f713c07310c8387c42e26bd0.jpg" 
+                            alt="Erin Ijesha Waterfalls in Osun State, Nigeria"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                        >
+                        <!-- Category Badge -->
+                        <div class="absolute top-4 left-4 bg-nigeria-green text-white text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider">
+                            Waterfall
+                        </div>
+                        <!-- Image overlay on hover -->
+                        <div class="absolute inset-0 bg-nigeria-green/0 group-hover:bg-nigeria-green/10 transition-colors duration-500"></div>
+                    </div>
+
+                    <!-- Card Content -->
+                    <div class="p-5 sm:p-6 flex flex-col flex-grow">
+                        <!-- Destination Name -->
+                        <h3 class="text-xl font-bold text-gray-900 mb-1 group-hover:text-nigeria-green transition-colors duration-300">
+                            Erin Ijesha Waterfalls
+                        </h3>
+                        <!-- State/Location -->
+                        <div class="flex items-center gap-1.5 text-nigeria-green text-sm font-medium mb-3">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            Osun State
+                        </div>
+                        <!-- Short Description -->
+                        <p class="text-gray-600 text-sm leading-relaxed mb-5 flex-grow">
+                            Also known as Olumirin Waterfalls, this seven-level cascade hidden in a lush rainforest 
+                            offers a refreshing escape and a challenging climb for adventure seekers.
+                        </p>
+                        <!-- Learn More Button -->
+                        <a href="#" class="inline-flex items-center gap-2 text-nigeria-green font-semibold text-sm hover:text-nigeria-green-dark transition-colors duration-300 group/btn">
+                            Learn More
+                            <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ============================================
+                     CARD 4: OBUDU MOUNTAIN RESORT
+                     Cross River State - Mountain Resort
+                ============================================ -->
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-nigeria-green/20 flex flex-col h-full hover:-translate-y-2">
+                    
+                    <!-- Destination Image -->
+                    <div class="relative h-52 sm:h-56 overflow-hidden">
+                        <img 
+                            src="https://kimi-web-img.moonshot.cn/img/visaliv.s3.ap-south-1.amazonaws.com/9f79650eafdfb2f3259887ee917c0b9ac032a017.jpg" 
+                            alt="Obudu Mountain Resort in Cross River State, Nigeria"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                        >
+                        <!-- Category Badge -->
+                        <div class="absolute top-4 left-4 bg-nigeria-green text-white text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider">
+                            Mountain Resort
+                        </div>
+                        <!-- Image overlay on hover -->
+                        <div class="absolute inset-0 bg-nigeria-green/0 group-hover:bg-nigeria-green/10 transition-colors duration-500"></div>
+                    </div>
+
+                    <!-- Card Content -->
+                    <div class="p-5 sm:p-6 flex flex-col flex-grow">
+                        <!-- Destination Name -->
+                        <h3 class="text-xl font-bold text-gray-900 mb-1 group-hover:text-nigeria-green transition-colors duration-300">
+                            Obudu Mountain Resort
+                        </h3>
+                        <!-- State/Location -->
+                        <div class="flex items-center gap-1.5 text-nigeria-green text-sm font-medium mb-3">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            Cross River State
+                        </div>
+                        <!-- Short Description -->
+                        <p class="text-gray-600 text-sm leading-relaxed mb-5 flex-grow">
+                            Nestled on the Obudu Plateau at 1,500 meters above sea level, this resort features 
+                            breathtaking views, a cable car, water slides, and cool mountain air year-round.
+                        </p>
+                        <!-- Learn More Button -->
+                        <a href="#" class="inline-flex items-center gap-2 text-nigeria-green font-semibold text-sm hover:text-nigeria-green-dark transition-colors duration-300 group/btn">
+                            Learn More
+                            <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ============================================
+                     CARD 5: LEKKI CONSERVATION CENTRE
+                     Lagos State - Nature Park
+                ============================================ -->
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-nigeria-green/20 flex flex-col h-full hover:-translate-y-2">
+                    
+                    <!-- Destination Image Placeholder -->
+                    <div class="relative h-52 sm:h-56 overflow-hidden bg-nigeria-green-pale flex items-center justify-center">
+                        <div class="text-center">
+                            <svg class="w-16 h-16 text-nigeria-green/40 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
+                            </svg>
+                            <span class="text-nigeria-green/50 text-sm font-medium">Lekki Conservation Centre</span>
+                        </div>
+                        <!-- Category Badge -->
+                        <div class="absolute top-4 left-4 bg-nigeria-green text-white text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider">
+                            Nature Park
+                        </div>
+                    </div>
+
+                    <!-- Card Content -->
+                    <div class="p-5 sm:p-6 flex flex-col flex-grow">
+                        <!-- Destination Name -->
+                        <h3 class="text-xl font-bold text-gray-900 mb-1 group-hover:text-nigeria-green transition-colors duration-300">
+                            Lekki Conservation Centre
+                        </h3>
+                        <!-- State/Location -->
+                        <div class="flex items-center gap-1.5 text-nigeria-green text-sm font-medium mb-3">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            Lagos State
+                        </div>
+                        <!-- Short Description -->
+                        <p class="text-gray-600 text-sm leading-relaxed mb-5 flex-grow">
+                            Home to Africa's longest canopy walkway, this 78-hectare nature reserve offers a unique 
+                            opportunity to explore mangroves, spot monkeys, and walk among the treetops.
+                        </p>
+                        <!-- Learn More Button -->
+                        <a href="#" class="inline-flex items-center gap-2 text-nigeria-green font-semibold text-sm hover:text-nigeria-green-dark transition-colors duration-300 group/btn">
+                            Learn More
+                            <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ============================================
+                     CARD 6: YANKARI NATIONAL PARK
+                     Bauchi State - National Park
+                ============================================ -->
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-nigeria-green/20 flex flex-col h-full hover:-translate-y-2">
+                    
+                    <!-- Destination Image -->
+                    <div class="relative h-52 sm:h-56 overflow-hidden">
+                        <img 
+                            src="https://kimi-web-img.moonshot.cn/img/upload.wikimedia.org/959460423fd2a7c4899d6fba59ba4db1c881a790.jpg" 
+                            alt="Yankari National Park in Bauchi State, Nigeria"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                        >
+                        <!-- Category Badge -->
+                        <div class="absolute top-4 left-4 bg-nigeria-green text-white text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider">
+                            National Park
+                        </div>
+                        <!-- Image overlay on hover -->
+                        <div class="absolute inset-0 bg-nigeria-green/0 group-hover:bg-nigeria-green/10 transition-colors duration-500"></div>
+                    </div>
+
+                    <!-- Card Content -->
+                    <div class="p-5 sm:p-6 flex flex-col flex-grow">
+                        <!-- Destination Name -->
+                        <h3 class="text-xl font-bold text-gray-900 mb-1 group-hover:text-nigeria-green transition-colors duration-300">
+                            Yankari National Park
+                        </h3>
+                        <!-- State/Location -->
+                        <div class="flex items-center gap-1.5 text-nigeria-green text-sm font-medium mb-3">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            Bauchi State
+                        </div>
+                        <!-- Short Description -->
+                        <p class="text-gray-600 text-sm leading-relaxed mb-5 flex-grow">
+                            Nigeria's premier wildlife reserve spans over 2,000 square kilometers. Spot elephants, 
+                            baboons, and hippos while soaking in the warm waters of the Wikki Warm Springs.
+                        </p>
+                        <!-- Learn More Button -->
+                        <a href="#" class="inline-flex items-center gap-2 text-nigeria-green font-semibold text-sm hover:text-nigeria-green-dark transition-colors duration-300 group/btn">
+                            Learn More
+                            <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- End of Destinations Cards Grid -->
+
+            <!-- ============================================
+                 VIEW ALL DESTINATIONS LINK
+                 Optional footer link for the section
+            ============================================ -->
+            <div class="text-center mt-12 sm:mt-16">
+                <a href="#" class="inline-flex items-center gap-2 bg-nigeria-green hover:bg-nigeria-green-dark text-white font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 group">
+                    View All Destinations
+                    <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+        <!-- End of Section Container -->
+
+    </section>
+    <!-- ============================================
+         FEATURED DESTINATIONS SECTION END
+    ============================================ -->
+
+
+
+    <!-- ============================================
+         TRAVEL TIPS SECTION START
+         Appears directly below the Featured Destinations section
+         Provides practical advice for travelers exploring Nigeria
+    ============================================ -->
+    <section class="w-full py-16 sm:py-20 lg:py-24 bg-white">
+
+        <!-- ============================================
+             SECTION CONTAINER
+             Max-width container with responsive padding
+        ============================================ -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- ============================================
+                 SECTION HEADER
+                 Title + introductory paragraph centered
+            ============================================ -->
+            <div class="text-center mb-12 sm:mb-16">
+
+                <!-- Section Title -->
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4 tracking-tight">
+                    Travel Tips for <span class="text-nigeria-green">Exploring Nigeria</span>
+                </h2>
+
+                <!-- Decorative underline -->
+                <div class="w-24 h-1 bg-nigeria-green mx-auto rounded-full mb-6"></div>
+
+                <!-- Introductory Paragraph -->
+                <p class="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    A little preparation goes a long way. Follow these essential travel tips to ensure your journey 
+                    across Nigeria is safe, respectful, and truly unforgettable — from the moment you arrive to the 
+                    memories you take home.
+                </p>
+            </div>
+
+            <!-- ============================================
+                 TRAVEL TIPS CARDS GRID
+                 4 responsive tip cards
+                 1 column mobile → 2 columns tablet → 4 columns desktop
+                 All cards have equal height (h-full)
+            ============================================ -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+
+                <!-- ============================================
+                     CARD 1: PLAN AHEAD
+                     Research before you travel
+                ============================================ -->
+                <div class="group bg-white rounded-2xl p-6 sm:p-8 shadow-md hover:shadow-xl transition-all duration-500 border border-gray-100 hover:border-nigeria-green/20 flex flex-col h-full hover:-translate-y-2">
+                    
+                    <!-- Icon Container -->
+                    <div class="w-14 h-14 sm:w-16 sm:h-16 mb-6 bg-nigeria-green-pale rounded-xl flex items-center justify-center group-hover:bg-nigeria-green transition-colors duration-500">
+                        <!-- Clipboard/Plan Icon -->
+                        <svg class="w-7 h-7 sm:w-8 sm:h-8 text-nigeria-green group-hover:text-white transition-colors duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"/>
+                        </svg>
+                    </div>
+
+                    <!-- Tip Title -->
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-nigeria-green transition-colors duration-300">
+                        Plan Ahead
+                    </h3>
+
+                    <!-- Tip Description -->
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed flex-grow">
+                        Research destinations, weather conditions, and local attractions before traveling. 
+                        A well-planned trip means fewer surprises and more time to enjoy Nigeria's incredible sights.
+                    </p>
+                </div>
+
+                <!-- ============================================
+                     CARD 2: RESPECT LOCAL CULTURE
+                     Learn customs and traditions
+                ============================================ -->
+                <div class="group bg-white rounded-2xl p-6 sm:p-8 shadow-md hover:shadow-xl transition-all duration-500 border border-gray-100 hover:border-nigeria-green/20 flex flex-col h-full hover:-translate-y-2">
+                    
+                    <!-- Icon Container -->
+                    <div class="w-14 h-14 sm:w-16 sm:h-16 mb-6 bg-nigeria-green-pale rounded-xl flex items-center justify-center group-hover:bg-nigeria-green transition-colors duration-500">
+                        <!-- Users/Culture Icon -->
+                        <svg class="w-7 h-7 sm:w-8 sm:h-8 text-nigeria-green group-hover:text-white transition-colors duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                    </div>
+
+                    <!-- Tip Title -->
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-nigeria-green transition-colors duration-300">
+                        Respect Local Culture
+                    </h3>
+
+                    <!-- Tip Description -->
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed flex-grow">
+                        Learn about local customs and traditions to create positive experiences. Nigeria is home 
+                        to over 250 ethnic groups — each with unique greetings, dress codes, and social norms worth honoring.
+                    </p>
+                </div>
+
+                <!-- ============================================
+                     CARD 3: STAY SAFE
+                     Use trusted services and secure belongings
+                ============================================ -->
+                <div class="group bg-white rounded-2xl p-6 sm:p-8 shadow-md hover:shadow-xl transition-all duration-500 border border-gray-100 hover:border-nigeria-green/20 flex flex-col h-full hover:-translate-y-2">
+                    
+                    <!-- Icon Container -->
+                    <div class="w-14 h-14 sm:w-16 sm:h-16 mb-6 bg-nigeria-green-pale rounded-xl flex items-center justify-center group-hover:bg-nigeria-green transition-colors duration-500">
+                        <!-- Shield/Safety Icon -->
+                        <svg class="w-7 h-7 sm:w-8 sm:h-8 text-nigeria-green group-hover:text-white transition-colors duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                    </div>
+
+                    <!-- Tip Title -->
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-nigeria-green transition-colors duration-300">
+                        Stay Safe
+                    </h3>
+
+                    <!-- Tip Description -->
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed flex-grow">
+                        Use trusted transportation services and keep important belongings secure. Share your itinerary 
+                        with someone back home, and always have ExploreNajia's 24/7 support number saved on your phone.
+                    </p>
+                </div>
+
+                <!-- ============================================
+                     CARD 4: STAY HYDRATED
+                     Carry water for outdoor adventures
+                ============================================ -->
+                <div class="group bg-white rounded-2xl p-6 sm:p-8 shadow-md hover:shadow-xl transition-all duration-500 border border-gray-100 hover:border-nigeria-green/20 flex flex-col h-full hover:-translate-y-2">
+                    
+                    <!-- Icon Container -->
+                    <div class="w-14 h-14 sm:w-16 sm:h-16 mb-6 bg-nigeria-green-pale rounded-xl flex items-center justify-center group-hover:bg-nigeria-green transition-colors duration-500">
+                        <!-- Droplet/Water Icon -->
+                        <svg class="w-7 h-7 sm:w-8 sm:h-8 text-nigeria-green group-hover:text-white transition-colors duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                        </svg>
+                    </div>
+
+                    <!-- Tip Title -->
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-nigeria-green transition-colors duration-300">
+                        Stay Hydrated
+                    </h3>
+
+                    <!-- Tip Description -->
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed flex-grow">
+                        Carry water and stay refreshed, especially when exploring outdoor attractions. Nigeria's tropical 
+                        climate can be intense — staying hydrated keeps your energy up and your adventure going strong.
+                    </p>
+                </div>
+
+            </div>
+            <!-- End of Travel Tips Cards Grid -->
+
+        </div>
+        <!-- End of Section Container -->
+
+    </section>
+    <!-- ============================================
+         TRAVEL TIPS SECTION  End-->
+
+    <!-- ============================================
+         DESTINATIONS CTA SECTION START
+         Appears directly below Travel Tips and above Footer
+         Encourages visitors to take action and explore more
+    ============================================ -->
+    <section class="relative w-full overflow-hidden">
+
+        <!-- ============================================
+             BACKGROUND LAYER
+             Green gradient with subtle pattern overlay
+             Creates a visually appealing, branded backdrop
+        ============================================ -->
+        <div class="absolute inset-0 bg-gradient-to-br from-nigeria-green via-nigeria-green-dark to-nigeria-green-light">
+            <!-- Subtle dot pattern for texture -->
+            <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle, #ffffff 1.5px, transparent 1.5px); background-size: 28px 28px;"></div>
+            <!-- Subtle diagonal stripe pattern for depth -->
+            <div class="absolute inset-0 opacity-5" style="background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,0.1) 35px, rgba(255,255,255,0.1) 70px);"></div>
+        </div>
+
+        <!-- Decorative blurred circles for visual depth -->
+        <div class="absolute top-0 left-0 w-80 h-80 bg-white/5 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl"></div>
+        <div class="absolute bottom-0 right-0 w-96 h-96 bg-white/5 rounded-full translate-x-1/3 translate-y-1/3 blur-3xl"></div>
+
+        <!-- ============================================
+             CONTENT CONTAINER
+             Centered content with generous responsive padding
+        ============================================ -->
+        <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24 lg:py-32 text-center">
+
+            <!-- ============================================
+                 BADGE
+                 Small pill badge above the headline
+            ============================================ -->
+            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-5 py-2 mb-8">
+                <svg class="w-4 h-4 text-nigeria-green-pale" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+                <span class="text-white text-sm font-semibold tracking-wide uppercase">Start Your Journey</span>
+            </div>
+
+            <!-- ============================================
+                 MAIN HEADLINE
+                 Compelling headline encouraging exploration
+            ============================================ -->
+            <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-6">
+                Ready to Explore Nigeria's<br>
+                <span class="text-nigeria-green-pale">Hidden Gems?</span>
+            </h2>
+
+            <!-- ============================================
+                 SUPPORTING PARAGRAPH
+                 Describes the experiences awaiting travelers
+            ============================================ -->
+            <p class="text-base sm:text-lg md:text-xl text-white/85 max-w-3xl mx-auto leading-relaxed mb-12">
+                Discover breathtaking landscapes, historical landmarks, cultural treasures, and unforgettable 
+                travel experiences across Nigeria with ExploreNajia.
+            </p>
+
+            <!-- ============================================
+                 CALL-TO-ACTION BUTTONS
+                 Two buttons with responsive layout
+                 Stack vertically on mobile, side-by-side on tablet+
+            ============================================ -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
+
+                <!-- ============================================
+                     PRIMARY CTA: EXPLORE MORE DESTINATIONS
+                     Solid green background with white text
+                ============================================ -->
+                <a href="#" class="w-full sm:w-auto group inline-flex items-center justify-center gap-3 bg-nigeria-green hover:bg-nigeria-green-dark text-white font-bold text-lg px-8 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-2xl hover:scale-105">
+                    <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                    </svg>
+                    Explore More Destinations
+                </a>
+
+                <!-- ============================================
+                     SECONDARY CTA: CONTACT US
+                     White background with green border and text
+                ============================================ -->
+                <a href="#" class="w-full sm:w-auto group inline-flex items-center justify-center gap-3 bg-white text-nigeria-green font-bold text-lg px-8 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-2xl hover:scale-105 border-2 border-nigeria-green hover:bg-nigeria-green-pale">
+                    <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                    </svg>
+                    Contact Us
+                </a>
+
+            </div>
+
+        </div>
+        <!-- End of Content Container -->
+
+    </section>
+    <!-- ============================================
+         DESTINATIONS CTA SECTION END
+    ============================================ -->
+
+
+
+</body>
+</html>

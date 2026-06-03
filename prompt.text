@@ -1,0 +1,869 @@
+NAV BAR PROMPT
+
+Hey bro, I am a software engineer-in training.
+
+I am building a professional travel agency website called ExploreNajia
+
+Create a responsive navbar using only Html and Tailwind css
+
+Include a logo and 6 menu  items
+
+HOME SECTION
+
+Hey bro, I am a software engineer-in training.
+
+I am building a professional travel agency website called ExploreNajia
+
+
+
+
+
+*****
+
+Create a modern responsive hero section for homepage
+
+Requirement
+
+-Use a full-width background image featuring Nigeria city Skyline, Famous Landmark or travel destination
+
+-Add a dark overlay to make the text visible and easy to read
+
+-Place all content on the image
+
+-include a small travel badge above the heading
+
+-Add a large, bold headline: "Explore Nigeria like never before"
+
+-include a short supporting description that encourages visitors to discover destinations and book tours
+
+-Add two call-to-action button "Explore Tours" and "View Destinations"
+
+-Display travel statistics 50+ tours, 20+ Destinations and 500+ Happy travelers
+
+-Use a professional Green and White colour scheme like the Nigeria flag
+
+-Ensure the hero section is fullly responsive on mobile, tablet and desktop screens
+
+-Use only Html and Tailswind css
+
+- Add clear Html comments explaining each section of the code.
+
+*******
+Features Destinstion
+Hey bro, I am a software engineer-in training.
+
+I am building a professional travel agency website called ExploreNajia
+
+*****
+
+Feature Destination
+
+Create a modern and responsive feature destination that should appear below the hero section in the homage
+
+-Add a section title that says Feature Destination
+
+-Add a short subtitle encouraging visitors to explore Nigeria most popular travel location
+
+-Create 3 responsive destination cards  for Lagos, Abuja and Enugu
+
+Each cards should contain
+
+- A destination image
+
+-Destination name
+
+- Short description
+
+- Explore button
+
+
+
+-Use a professional green and white colour
+
+-Ensure the section is fully responsive on mobile and desktop screen
+
+-Use only Html and Tailswind css.
+Hey bro, I am a software engineer-in training.
+
+I am building a professional travel agency website called ExploreNajia
+
+
+****************
+
+Why Choose ExploreNajia section
+
+Create a modern and responsive section "ExploreNajia" section below the featured Destination
+
+-It should have a section title"Why Choose ExploreNajia"
+
+-Add a short description "We make travel across Nigeria easy, affordable and memorable"
+
+Create 4 features cards
+
+-Trusted Travel Guides
+
+-Affordable Tour Packages
+
+-Safe and Reliable Travel
+
+24/7 Customer Support
+
+
+
+-Each card should include an icon, title and  short description
+
+-Add subtle hover effects to the cards 
+
+-Use a professional green and white colour
+
+-Ensure the section is fully responsive on mobile, tablet and desktop device
+
+- Use only Html and css
+
+- Add clear Html comments explaining each section of code.
+
+
+CTA section
+Hey bro, I am a software engineer-in training.
+
+I am building a professional travel agency website called ExploreNajia
+
+**********
+
+CTA section
+
+create a modern and responsive  Call To Action (CTA) section that should appear directly below the "Why Choose ExploreNajia" section on the Home Page 
+
+Requirement
+
+-Add a large headline encouraging visitors to start their next adventures
+
+Add two call-to-action buttons
+
+-Book Now
+
+-View Tours
+
+-Use a visually appealing green gradient or travel inspired background
+
+-Add subtle have effects to the buttons
+
+-Ensure the section is fully responsive on mobile, tablet and desktop devices
+
+-Use only Html and Tailwind css
+
+-Add clear Html comments explaining each section of the code.
+
+
+Footer Section
+Hey bro, I am a software engineer-in training.
+
+I am building a professional travel agency website called ExploreNajia
+
+*******
+Footer Section
+
+Create a simple and responsive footer section
+
+-Display the brand name "EXploreNajia"
+
+-Include an email address section
+
+-Display the text "&copy 2026 ExploreNajia. All  Rights Reserved"
+
+-Use a dark green background with with text
+
+-Center all the content in the footer
+
+
+
+-Use only Html and Tailwind css
+
+-Add clear Html comments explaining each part of the code
+
+
+
+
+**********
+
+ABOUT PAGE
+
+About Banner section
+Hey I am  software engineer-in training 
+
+I am building a travel agency called "ExplorerNajia" 
+
+Create a  professional responsive About Banner section for the About Page
+
+Requirement
+
+-Add a travel-themed background image 
+
+-Include the heading "About ExploreNajia"
+
+-Add a dark overlay to make the text visible and easy to read
+
+-Add a short description about helping travelers across Nigeria
+
+
+-Include the texts in the image
+-Use a green and white colour scheme
+
+-Use only Html and Tailwind css
+
+-Add html comments explaining the code
+
+
+************
+
+MISSION & VISION SECTION
+
+I am software engineer-in-training 
+
+I am building a travel agency called "ExplorerNajia"
+
+Mission & Vision
+
+This section should appear directly below the "our story" section
+
+Requirement
+
+-Create a fully responsive Mission & Vision section using only Html and Tailwind css
+
+-Add a section title "Mission & Vision section using only Html  and Tailwind css
+
+-Include a short introductory paragraph below the section title explaining ExploreNajia purpose
+
+- Create 3 responsive cards
+
+Display the cards in
+
+- 1 column on mobile device
+
+- 2 columns on tablet device
+
+- 3 columns on desktop devices
+
+
+
+Each card should contain 
+
+- Icon
+
+- A card title
+
+A descriptive paragraph
+
+-Our mission
+
+- Our Vision
+
+- Our core values
+
+-Use a green and white colour scheme through the section
+
+-Add subtle shadows, rounded corners and hover effects 
+
+-Comment every major section in the html code
+
+-Ensure the section is fully responsive on mobile, tablet and desktop screens.
+
+-Use only Html and Tailwind css
+
+
+*************
+
+Why Choose Explore ExoloreNajia section
+I am software engineer-in-training 
+
+I am building a  professional travel agency called "ExploreNajia"
+
+Why choose ExploreNajia section
+
+Requirement
+
+- Create a fully responsive section using only Html and Tailwind css
+
+- Include a section title "Why Choose ExploreNajia"
+
+-Add a short introductory paragraph explaining why visitors should trust and use ExploreNajia
+
+Create 4 responsive feature cards.
+
+Display the cards in:
+
+- 1 column on mobile devices
+
+- 2 column on tablet devices
+
+Each card should contain
+
+- An icon
+
+- A feature title
+
+- A descriptive paragraph
+
+
+
+The Four cards should represent
+
+
+
+- Authentic Nigeria Experiences
+
+-Trusted Travel Information
+
+- Easy Exploration
+
+- Passion for Nigeria Culture
+
+
+
+-Use a green and white colour scheme
+
+-Add subtle shadows, rounded corners and hover effects
+
+-Maintain consistent spacing and alignment.
+
+-Ensure full responsiveness across mobile, tablet and desktop  screen
+
+-Comment every major section in the code
+
+
+
+*************
+Meet our team section
+I am software engineer-in-training 
+
+I am building a  professional travel agency called "ExploreNajia"
+
+Meet my team section
+
+Requirements:
+
+Create a fully responsive section using only HTML and Tailwind CSS.
+
+Include a section title: "Meet The Team".
+
+Add a short introductory paragraph about the people behind ExploreNajia.
+
+Create 3 responsive team member cards.
+
+Display the cards in:
+
+1 column on mobile devices
+
+2 columns on tablet devices
+
+3 columns on desktop devices.
+
+Each card should contain:
+
+Team member image placeholder
+
+Full name
+
+Role or position
+
+Short biography
+
+Example Roles:
+
+Founder & Travel Enthusiast
+
+Content Creator
+
+Web Developer
+
+Design Requirements:
+
+Use a green and white color scheme.
+
+Add rounded profile images.
+
+Include subtle hover animations.
+
+Ensure proper spacing and alignment.
+
+Comment every major section in the HTML code.
+
+Ensure the layout is fully responsive.
+
+Return only the HTML code with Tailwind CSS classes included.
+
+
+
+
+
+************
+
+
+
+Call-To-Action section
+
+I am a software engineer-In traing
+
+i am building a website called "ExploreNajia"
+
+ Call-To-Action (CTA) section 
+
+This section should appear directly above the Footer section.
+
+Requirements:
+
+- Create a fully responsive CTA section using only HTML and Tailwind CSS.
+- Include a compelling headline encouraging visitors to explore Nigeria.
+- Add a short supporting paragraph.
+- Include two call-to-action buttons:
+  - Explore Destinations
+  - Contact Us
+- Center all content horizontally and vertically.
+- Use a green and white color scheme consistent with the ExploreNajia brand.
+- Add hover effects to the buttons.
+- Include generous padding and spacing to make the section stand out.
+- Ensure the section is fully responsive on mobile, tablet, and desktop devices.
+- Comment every major section in the HTML code.
+- Return only HTML code and Tailwind CSS included
+
+
+
+
+
+
+
+
+
+
+DESTINATION PAGE
+destination Banner Section
+
+I am a Software engineer in training
+
+iI am building a website:"ExploreNajia"
+
+You are building a Destinations Banner section for the ExploreNajia website.
+
+This section should be the first section on the Destinations page.
+
+Requirements:
+
+- Create a fully responsive hero banner using only HTML and Tailwind CSS.
+- Include a large heading:
+  "Explore Nigeria's Amazing Destinations"
+- Add a short paragraph encouraging visitors to discover Nigeria's natural wonders, historical landmarks, and cultural attractions.
+- Include a primary button:
+  "Explore Destinations"
+- Include a secondary button:
+  "Travel Guides"
+- Use a green and white color scheme consistent with the ExploreNajia brand.
+- Add a background image overlay or gradient effect.
+- Center all content vertically and horizontally.
+- Ensure responsiveness across mobile, tablet, and desktop devices.
+- Comment every major section in the HTML code.
+
+
+
+Search section
+I am a Software engineer in training
+
+iI am building a website:"ExploreNajia"
+
+ou are building a Search & Filter section for the ExploreNajia Destinations page.
+
+This section should appear directly below the Destinations Banner section.
+
+Requirements:
+
+- Create a fully responsive Search & Filter section using only HTML and Tailwind CSS.
+
+- Include a section title: "Find Your Perfect Destination".
+
+- Add a short introductory paragraph encouraging users to search and filter destinations across Nigeria.
+
+- Create a responsive search bar with:
+  
+  - Search icon
+  - Placeholder text: "Search destinations..."
+  - Rounded corners
+  - Focus state styling
+
+- Create responsive filter dropdowns for:
+  
+  - Region
+    - North
+    - South
+    - East
+    - West
+  - Category
+    - Beaches
+    - Waterfalls
+    - National Parks
+    - Historical Sites
+    - Mountains
+    - Cultural Attractions
+
+- Add a green "Search" button beside the filters.
+
+Layout Requirements:
+
+- On mobile screens:
+  - Stack all inputs vertically.
+- On tablet screens:
+  - Display inputs in 2 columns where appropriate.
+- On desktop screens:
+  - Display the search bar, filters, and button in a single row.
+
+Design Requirements:
+
+- Use a green and white color scheme consistent with the ExploreNajia brand.
+- Add subtle shadows and rounded corners.
+- Ensure proper spacing, alignment, and readability.
+- Add hover and focus effects where appropriate.
+- Comment every major section in the HTML code.
+- Ensure the section is fully responsive on mobile, tablet, and desktop device
+
+FEATURE DESTINATION SECTION
+I am a Software engineer in training
+
+I am building a website:"ExploreNajia"
+
+
+
+ Featured Destinations section for the ExploreNajia Destinations page.
+
+This section should appear directly below the Search & Filter section.
+
+Requirements:
+
+- Create a fully responsive Featured Destinations section using only HTML and Tailwind CSS.
+- Include a section title: "Featured Destinations".
+- Add a short introductory paragraph encouraging visitors to discover some of Nigeria's most popular attractions.
+
+Destination Cards:
+
+- Create 6 responsive destination cards.
+- Display the cards in:
+  - 1 column on mobile devices
+  - 2 columns on tablet devices
+  - 3 columns on desktop devices
+
+Each card should contain:
+
+- Destination image placeholder
+- Destination name
+- State or location
+- Short description (2–3 lines)
+- Category badge (e.g., Waterfall, Beach, Historical Site, National Park)
+- "Learn More" button
+
+Use the following destinations:
+
+1. Zuma Rock
+   
+   - Niger State
+   - Category: Historical Landmark
+
+2. Olumo Rock
+   
+   - Ogun State
+   - Category: Historical Site
+
+3. Erin Ijesha Waterfalls
+   
+   - Osun State
+   - Category: Waterfall
+
+4. Obudu Mountain Resort
+   
+   - Cross River State
+   - Category: Mountain Resort
+
+5. Lekki Conservation Centre
+   
+   - Lagos State
+   - Category: Nature Park
+
+6. Yankari National Park
+   
+   - Bauchi State
+   - Category: National Park
+
+Design Requirements:
+
+- Use a green and white color scheme consistent with the ExploreNajia brand.
+- Add rounded corners and subtle shadows to all cards.
+- Include hover effects such as slight card elevation and image zoom.
+- Ensure all cards have equal height for a clean layout.
+- Use proper spacing and alignment throughout the section.
+- Ensure the design is fully responsive on mobile, tablet, and desktop devices.
+- Comment every major section in the HTML code.
+
+TRAVEL TIPS SECTION
+Hey bro I am  software engineer-in training
+
+I am building professional website:"ExploreNajia"
+
+You are building a Travel Tips section for the ExploreNajia Destinations page.
+
+This section should appear directly below the Featured Destinations section.
+
+Requirements:
+
+- Create a fully responsive Travel Tips section using only HTML and Tailwind CSS.
+- Include a section title: "Travel Tips for Exploring Nigeria".
+- Add a short introductory paragraph encouraging travelers to prepare for a safe and enjoyable journey.
+
+Travel Tip Cards:
+
+- Create 4 responsive tip cards.
+- Display the cards in:
+  - 1 column on mobile devices
+  - 2 columns on tablet devices
+  - 4 columns on desktop devices
+
+Each card should contain:
+
+- An icon
+- A tip title
+- A short descriptive paragraph
+
+The four tips should be:
+
+1. Plan Ahead
+   
+   - Research destinations, weather conditions, and local attractions before traveling.
+
+2. Respect Local Culture
+   
+   - Learn about local customs and traditions to create positive experiences.
+
+3. Stay Safe
+   
+   - Use trusted transportation services and keep important belongings secure.
+
+4. Stay Hydrated
+   
+   - Carry water and stay refreshed, especially when exploring outdoor attractions.
+
+Design Requirements:
+
+- Use a green and white colour scheme consistent with the ExploreNajia brand.
+- Add rounded corners, subtle shadows, and hover effects.
+- Ensure proper spacing, alignment, and readability.
+- Make all cards equal height for a clean appearance.
+- Ensure the section is fully responsive on mobile, tablet, and desktop devices.
+- Comment every major section in the HTML code.
+- Return only the HTML code with Tailwind CSS classes included
+
+************
+
+Cta section for destination page
+I am a software engineer-In traing
+
+i am building a website called "ExploreNajia"
+This section should appear directly below the Travel Tips section and directly above the Footer.
+
+Requirements:
+
+- Create a fully responsive CTA section using only HTML and Tailwind CSS.
+- Use a green and white color scheme consistent with the ExploreNajia brand.
+- Center all content horizontally and vertically.
+- Include generous padding and spacing to make the section stand out from the rest of the page.
+- Add a visually appealing background using a green gradient or subtle pattern.
+
+Content Requirements:
+
+- Include a compelling headline:
+  "Ready to Explore Nigeria's Hidden Gems?"
+
+- Include a supporting paragraph:
+  "Discover breathtaking landscapes, historical landmarks, cultural treasures, and unforgettable travel experiences across Nigeria with ExploreNajia."
+
+- Include two call-to-action buttons:
+  
+  - Explore More Destinations
+  - Contact Us
+
+Button Requirements:
+
+- Primary button should have a solid green background.
+- Secondary button should have a white background with a green border.
+- Add smooth hover effects and transitions.
+- Ensure buttons stack vertically on mobile devices and appear side-by-side on tablet and desktop screens.
+
+Design Requirements:
+
+- Use a clean, modern, and professional layout.
+- Ensure excellent readability and spacing.
+- Make the section fully responsive on mobile, tablet, and desktop devices.
+- Comment every major section in the HTML code.
+- Return only the HTML code with Tailwind CSS classes included.
+
+***********
+PACKAGES SECTION
+
+Hey bro, i am a software engineer-in training
+I am  building a professional website:"ExploreNajia"
+
+You are building a Featured Travel Packages section for the ExploreNajia Packages page.
+
+
+
+Requirements:
+
+- Create a fully responsive Featured Travel Packages section using only HTML and Tailwind CSS.
+- Include a section title: "Featured Travel Packages".
+- Add a short introductory paragraph encouraging visitors to choose from curated travel experiences across Nigeria.
+
+Travel Package Cards:
+
+
+- Create 6 responsive package cards.
+- Display the cards in:
+  - 1 column on mobile devices
+  - 2 columns on tablet devices
+  - 3 columns on desktop devices
+
+Each package card should contain:
+
+- Package image placeholder
+- Package title
+- Package duration
+- Destination or location
+- Package price
+- Short package description
+- "Book Now" button
+
+Use the following travel packages:
+
+1. Lagos City Explorer
+   
+   - Duration: 2 Days
+   - Location: Lagos
+   - Price: ₦50,000
+
+2. Obudu Mountain Adventure
+   
+   - Duration: 3 Days
+   - Location: Cross River
+   - Price: ₦120,000
+
+3. Abuja Heritage Tour
+   
+   - Duration: 2 Days
+   - Location: Abuja
+   - Price: ₦70,000
+
+4. Yankari Wildlife Experience
+   
+   - Duration: 4 Days
+   - Location: Bauchi
+   - Price: ₦150,000
+
+5. Osun Cultural Discovery
+   
+   - Duration: 3 Days
+   - Location: Osun
+   - Price: ₦85,000
+
+6. Nigeria Nature Escape
+   
+   - Duration: 5 Days
+   - Multiple Destinations
+   - Price: ₦200,000
+
+Design Requirements:
+
+- Use a green and white color scheme consistent with the ExploreNajia brand.
+- Add rounded corners, subtle shadows, and hover effects.
+- Ensure all cards have equal height.
+- Add smooth hover animations on images and cards.
+- Maintain proper spacing and alignment.
+- Ensure the section is fully responsive on mobile, tablet, and desktop devices.
+- Comment every major section in the HTML code.
+- Return only the HTML code with Tailwind CSS classes included.
+
+
+
+CONTACT SECTION
+contact page
+I am a software engineer-in training
+ I am building a professional website:"ExploreNajia 
+ Contact Banner section for the ExploreNajia website.
+
+This section should be the first section on the Contact page.
+
+Requirements:
+
+- Create a fully responsive hero banner using only HTML and Tailwind CSS.
+- Include a large heading:
+  "Get In Touch With Us"
+- Add a short paragraph encouraging visitors to contact ExploreNajia for inquiries, travel information, or support.
+- Include a "Contact Us" button.
+
+-Add a contact ravelling image
+
+- All content should be inside images
+
+-Image  should be an overlay so text and will easy to read
+
+
+- Use a green and white colour scheme consistent with the ExploreNajia brand.
+- Center all content vertically and horizontally.
+- Ensure responsiveness across mobile, tablet, and desktop devices.
+- Comment every major section in the HTML code
+
+
+contact information
+
+
+
+Hey bro, I am a software engineer-in training
+
+I am building a website:" ExploreNajia"
+
+You are building a Contact Information and Contact Form section for the ExploreNajia Contact page.
+
+This section should appear directly below the Contact Banner section.
+
+Requirements:
+
+- Create a fully responsive section using only HTML and Tailwind CSS.
+- Divide the section into two columns on desktop screens and one column on mobile screens.
+
+Left Column: Contact Information
+
+Include:
+
+- Section title: "Contact Information"
+- Email Address
+- Phone Number
+- Office Address
+- Short description encouraging visitors to reach out.
+
+Right Column: Contact Form
+
+Include:
+
+- Full Name input
+- Email Address input
+- Subject input
+- Message textarea
+- Send Message button
+
+Design Requirements:
+
+- Use a green and white color scheme.
+- Add rounded corners and subtle shadows.
+- Include focus states for all form inputs.
+- Add hover effects to buttons.
+- Ensure proper spacing and alignment.
+- Make the layout fully responsive on mobile, tablet, and desktop devices.
+- Comment every major section in the HTML code.
+
+green: '#008751',
+                            'green-dark': '#006B41',
+                            'green-light': '#00A86B',
+                            'green-pale': '#E8F5E9'
+                             'green-darker': '#004D2E',

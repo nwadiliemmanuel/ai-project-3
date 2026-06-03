@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploreNajia - Featured Travel Packages</title>
+    <!-- Tailwind CSS CDN -->
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/output.css">
+    
+    
+</head>
+<body class="font-sans antialiased bg-nigeria-green-faint">
+        <header>
+        <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                
+                <!-- Logo -->
+                <a href="#" class="flex items-center space-x-2">
+                    <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+                    </svg>
+                    <span class="text-2xl font-bold text-gray-800">
+                        Explore<span class="text-green-600">Najia</span>
+                    </span>
+                </a>
+
+                <!-- Desktop Menu (6 items) -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-green-600 font-semibold transition-colors duration-200">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-green-600 font-semibold transition-colors duration-200">About Us</a>
+                    <a href="destination.html" class="text-gray-600 hover:text-green-600 font-semibold transition-colors duration-200">Destination</a>
+                    <a href="packages.html" class="text-gray-600 hover:text-green-600 font-semibold transition-colors duration-200">Packages</a>
+                    <a href="contact" class="text-gray-600 hover:text-green-600 font-semibold transition-colors duration-200">Contact</a>
+                 
+                    
+                    <!-- CTA Button -->
+                    <a href="#" class="bg-green-600 text-white px-6 py-2.5 rounded-full font-semibold hover:bg-green-700 transition-colors duration-200 shadow-md">
+                        Book Now
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Toggle (Checkbox Hack) -->
+                <div class="md:hidden">
+                    <label for="menu-toggle" class="cursor-pointer p-2 text-gray-600 hover:text-green-600 transition-colors">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </label>
+                    <input type="checkbox" id="menu-toggle" class="hidden peer">
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Peer-checked) -->
+        <div class="hidden peer-checked:block md:hidden bg-white border-t border-gray-100">
+            <div class="px-4 py-3 space-y-1">
+                <a href="#" class="block px-4 py-3 rounded-lg text-gray-700 font-medium hover:bg-blue-50 hover:text-green-600 transition-colors">Home</a>
+                <a href="#" class="block px-4 py-3 rounded-lg text-gray-700 font-medium hover:bg-blue-50 hover:text-green-600 transition-colors">Destinations</a>
+                <a href="#" class="block px-4 py-3 rounded-lg text-gray-700 font-medium hover:bg-blue-50 hover:text-green-600 transition-colors">Packages</a>
+                <a href="#" class="block px-4 py-3 rounded-lg text-gray-700 font-medium hover:bg-blue-50 hover:text-green-600 transition-colors">Tours</a>
+                <a href="#" class="block px-4 py-3 rounded-lg text-gray-700 font-medium hover:bg-blue-50 hover:text-green-600 transition-colors">About</a>
+                <a href="#" class="block px-4 py-3 rounded-lg text-gray-700 font-medium hover:bg-blue-50 hover:text-green-600 transition-colors">Contact</a>
+                <div class="pt-2 pb-1">
+                    <a href="#" class="block w-full text-center bg-green-600 text-black px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <!-- ============================================
+         FEATURED TRAVEL PACKAGES SECTION START
+         Appears on the Packages page
+         Displays 6 curated travel package cards
+    ============================================ -->
+    <section class="w-full py-16 sm:py-20 lg:py-24 bg-nigeria-green-faint">
+
+        <!-- ============================================
+             SECTION CONTAINER
+             Max-width container with responsive padding
+        ============================================ -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- ============================================
+                 SECTION HEADER
+                 Title + introductory paragraph centered
+            ============================================ -->
+            <div class="text-center mb-12 sm:mb-16">
+
+                <!-- Section Title -->
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4 tracking-tight">
+                    Featured Travel <span class="text-nigeria-green">Packages</span>
+                </h2>
+
+                <!-- Decorative underline -->
+                <div class="w-24 h-1 bg-nigeria-green mx-auto rounded-full mb-6"></div>
+
+                <!-- Introductory Paragraph -->
+                <p class="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    Choose from our curated travel experiences across Nigeria. Each package is designed to immerse you 
+                    in the beauty, culture, and adventure that makes every destination unforgettable.
+                </p>
+            </div>
+
+            <!-- ============================================
+                 PACKAGES CARDS GRID
+                 6 responsive package cards
+                 1 column mobile → 2 columns tablet → 3 columns desktop
+                 All cards have equal height (h-full)
+            ============================================ -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+
+                <!-- ============================================
+                     CARD 1: LAGOS CITY EXPLORER
+                     2 Days | Lagos | ₦50,000
+                ============================================ -->
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-nigeria-green/20 flex flex-col h-full hover:-translate-y-2">
+                    
+                    <!-- Package Image -->
+                    <div class="relative h-52 sm:h-56 overflow-hidden">
+                        <img 
+                            src="https://kimi-web-img.moonshot.cn/img/images.trvl-media.com/a5434812a91fa525626097913dbff4dfc649a017.jpg" 
+                            alt="Lagos City Explorer package"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                        >
+                        <!-- Duration Badge -->
+                        <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-gray-900 text-xs font-bold px-3 py-1.5 rounded-full flex items-center gap-1.5">
+                            <svg class="w-3.5 h-3.5 text-nigeria-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            2 Days
+                        </div>
+                        <!-- Image overlay on hover -->
+                        <div class="absolute inset-0 bg-nigeria-green/0 group-hover:bg-nigeria-green/10 transition-colors duration-500"></div>
+                    </div>
+
+                    <!-- Card Content -->
+                    <div class="p-5 sm:p-6 flex flex-col flex-grow">
+                        <!-- Package Title -->
+                        <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-nigeria-green transition-colors duration-300">
+                            Lagos City Explorer
+                        </h3>
+
+                        <!-- Location -->
+                        <div class="flex items-center gap-1.5 text-gray-500 text-sm mb-3">
+                            <svg class="w-4 h-4 text-nigeria-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            Lagos
+                        </div>
+
+                        <!-- Price -->
+                        <div class="text-2xl font-black text-nigeria-green mb-3">
+                            ₦50,000
+                            <span class="text-sm font-medium text-gray-400">/ person</span>
+                        </div>
+
+                        <!-- Short Description -->
+                        <p class="text-gray-600 text-sm leading-relaxed mb-5 flex-grow">
+                            Dive into the energy of Nigeria's commercial capital. Explore Victoria Island, visit the Lekki Conservation Centre, 
+                            and experience Lagos' vibrant nightlife and world-class cuisine.
+                        </p>
+
+                        <!-- Book Now Button -->
+                        <a href="#" class="w-full group/btn inline-flex items-center justify-center gap-2 bg-nigeria-green hover:bg-nigeria-green-dark text-white font-bold text-sm px-6 py-3 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg">
+                            Book Now
+                            <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ============================================
+                     CARD 2: OBUDU MOUNTAIN ADVENTURE
+                     3 Days | Cross River | ₦120,000
+                ============================================ -->
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-nigeria-green/20 flex flex-col h-full hover:-translate-y-2">
+                    
+                    <!-- Package Image -->
+                    <div class="relative h-52 sm:h-56 overflow-hidden">
+                        <img 
+                            src="https://kimi-web-img.moonshot.cn/img/www.mgkente.com/7df862fe1b234e266cca1cf0f7fe9720545938df.jpg" 
+                            alt="Obudu Mountain Adventure package"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                        >
+                        <!-- Duration Badge -->
+                        <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-gray-900 text-xs font-bold px-3 py-1.5 rounded-full flex items-center gap-1.5">
+                            <svg class="w-3.5 h-3.5 text-nigeria-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            3 Days
+                        </div>
+                        <!-- Image overlay on hover -->
+                        <div class="absolute inset-0 bg-nigeria-green/0 group-hover:bg-nigeria-green/10 transition-colors duration-500"></div>
+                    </div>
+
+                    <!-- Card Content -->
+                    <div class="p-5 sm:p-6 flex flex-col flex-grow">
+                        <!-- Package Title -->
+                        <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-nigeria-green transition-colors duration-300">
+                            Obudu Mountain Adventure
+                        </h3>
+
+                        <!-- Location -->
+                        <div class="flex items-center gap-1.5 text-gray-500 text-sm mb-3">
+                            <svg class="w-4 h-4 text-nigeria-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            Cross River
+                        </div>
+
+                        <!-- Price -->
+                        <div class="text-2xl font-black text-nigeria-green mb-3">
+                            ₦120,000
+                            <span class="text-sm font-medium text-gray-400">/ person</span>
+                        </div>
+
+                        <!-- Short Description -->
+                        <p class="text-gray-600 text-sm leading-relaxed mb-5 flex-grow">
+                            Escape to the clouds at Nigeria's premier mountain resort. Ride the cable car, explore the canopy walkway, 
+                            and enjoy the cool highland air at 1,500 meters above sea level.
+                        </p>
+
+                        <!-- Book Now Button -->
+                        <a href="#" class="w-full group/btn inline-flex items-center justify-center gap-2 bg-nigeria-green hover:bg-nigeria-green-dark text-white font-bold text-sm px-6 py-3 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg">
+                            Book Now
+                            <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ============================================
+                     CARD 3: ABUJA HERITAGE TOUR
+                     2 Days | Abuja | ₦70,000
+                ============================================ -->
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-nigeria-green/20 flex flex-col h-full hover:-translate-y-2">
+                    
+                    <!-- Package Image -->
+                    <div class="relative h-52 sm:h-56 overflow-hidden">
+                        <img 
+                            src="https://kimi-web-img.moonshot.cn/img/www.kupi.com/9a123ab337e3d93445cdbcc97e814342485cbb6f.webp" 
+                            alt="Abuja Heritage Tour package"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                        >
+                        <!-- Duration Badge -->
+                        <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-gray-900 text-xs font-bold px-3 py-1.5 rounded-full flex items-center gap-1.5">
+                            <svg class="w-3.5 h-3.5 text-nigeria-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            2 Days
+                        </div>
+                        <!-- Image overlay on hover -->
+                        <div class="absolute inset-0 bg-nigeria-green/0 group-hover:bg-nigeria-green/10 transition-colors duration-500"></div>
+                    </div>
+
+                    <!-- Card Content -->
+                    <div class="p-5 sm:p-6 flex flex-col flex-grow">
+                        <!-- Package Title -->
+                        <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-nigeria-green transition-colors duration-300">
+                            Abuja Heritage Tour
+                        </h3>
+
+                        <!-- Location -->
+                        <div class="flex items-center gap-1.5 text-gray-500 text-sm mb-3">
+                            <svg class="w-4 h-4 text-nigeria-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            Abuja
+                        </div>
+
+                        <!-- Price -->
+                        <div class="text-2xl font-black text-nigeria-green mb-3">
+                            ₦70,000
+                            <span class="text-sm font-medium text-gray-400">/ person</span>
+                        </div>
+
+                        <!-- Short Description -->
+                        <p class="text-gray-600 text-sm leading-relaxed mb-5 flex-grow">
+                            Discover Nigeria's elegant capital. Visit the iconic Aso Rock, explore the National Mosque, 
+                            and stroll through the beautifully planned city center with its stunning architecture.
+                        </p>
+
+                        <!-- Book Now Button -->
+                        <a href="#" class="w-full group/btn inline-flex items-center justify-center gap-2 bg-nigeria-green hover:bg-nigeria-green-dark text-white font-bold text-sm px-6 py-3 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg">
+                            Book Now
+                            <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ============================================
+                     CARD 4: YANKARI WILDLIFE EXPERIENCE
+                     4 Days | Bauchi | ₦150,000
+                ============================================ -->
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-nigeria-green/20 flex flex-col h-full hover:-translate-y-2">
+                    
+                    <!-- Package Image -->
+                    <div class="relative h-52 sm:h-56 overflow-hidden">
+                        <img 
+                            src="https://kimi-web-img.moonshot.cn/img/cdn.britannica.com/8b6e59471f03bda896cc468914772ddfa2ad33dc.jpg" 
+                            alt="Yankari Wildlife Experience package"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                        >
+                        <!-- Duration Badge -->
+                        <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-gray-900 text-xs font-bold px-3 py-1.5 rounded-full flex items-center gap-1.5">
+                            <svg class="w-3.5 h-3.5 text-nigeria-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            4 Days
+                        </div>
+                        <!-- Image overlay on hover -->
+                        <div class="absolute inset-0 bg-nigeria-green/0 group-hover:bg-nigeria-green/10 transition-colors duration-500"></div>
+                    </div>
+
+                    <!-- Card Content -->
+                    <div class="p-5 sm:p-6 flex flex-col flex-grow">
+                        <!-- Package Title -->
+                        <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-nigeria-green transition-colors duration-300">
+                            Yankari Wildlife Experience
+                        </h3>
+
+                        <!-- Location -->
+                        <div class="flex items-center gap-1.5 text-gray-500 text-sm mb-3">
+                            <svg class="w-4 h-4 text-nigeria-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            Bauchi
+                        </div>
+
+                        <!-- Price -->
+                        <div class="text-2xl font-black text-nigeria-green mb-3">
+                            ₦150,000
+                            <span class="text-sm font-medium text-gray-400">/ person</span>
+                        </div>
+
+                        <!-- Short Description -->
+                        <p class="text-gray-600 text-sm leading-relaxed mb-5 flex-grow">
+                            Embark on a safari adventure at Nigeria's largest wildlife reserve. Spot elephants, baboons, and hippos, 
+                            then relax in the warm, crystal-clear waters of the Wikki Warm Springs.
+                        </p>
+
+                        <!-- Book Now Button -->
+                        <a href="#" class="w-full group/btn inline-flex items-center justify-center gap-2 bg-nigeria-green hover:bg-nigeria-green-dark text-white font-bold text-sm px-6 py-3 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg">
+                            Book Now
+                            <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ============================================
+                     CARD 5: OSUN CULTURAL DISCOVERY
+                     3 Days | Osun | ₦85,000
+                ============================================ -->
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-nigeria-green/20 flex flex-col h-full hover:-translate-y-2">
+                    
+                    <!-- Package Image -->
+                    <div class="relative h-52 sm:h-56 overflow-hidden">
+                        <img 
+                            src="https://kimi-web-img.moonshot.cn/img/garlandmag.com/dabfc8171368dac8e955d1ff5085e15828f89c9e.jpg" 
+                            alt="Osun Cultural Discovery package"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                        >
+                        <!-- Duration Badge -->
+                        <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-gray-900 text-xs font-bold px-3 py-1.5 rounded-full flex items-center gap-1.5">
+                            <svg class="w-3.5 h-3.5 text-nigeria-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            3 Days
+                        </div>
+                        <!-- Image overlay on hover -->
+                        <div class="absolute inset-0 bg-nigeria-green/0 group-hover:bg-nigeria-green/10 transition-colors duration-500"></div>
+                    </div>
+
+                    <!-- Card Content -->
+                    <div class="p-5 sm:p-6 flex flex-col flex-grow">
+                        <!-- Package Title -->
+                        <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-nigeria-green transition-colors duration-300">
+                            Osun Cultural Discovery
+                        </h3>
+
+                        <!-- Location -->
+                        <div class="flex items-center gap-1.5 text-gray-500 text-sm mb-3">
+                            <svg class="w-4 h-4 text-nigeria-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            Osun
+                        </div>
+
+                        <!-- Price -->
+                        <div class="text-2xl font-black text-nigeria-green mb-3">
+                            ₦85,000
+                            <span class="text-sm font-medium text-gray-400">/ person</span>
+                        </div>
+
+                        <!-- Short Description -->
+                        <p class="text-gray-600 text-sm leading-relaxed mb-5 flex-grow">
+                            Immerse yourself in Yoruba tradition and spirituality. Visit the sacred Osun-Osogbo Grove, 
+                            experience vibrant festivals, and explore the rich artistic heritage of this cultural heartland.
+                        </p>
+
+                        <!-- Book Now Button -->
+                        <a href="#" class="w-full group/btn inline-flex items-center justify-center gap-2 bg-nigeria-green hover:bg-nigeria-green-dark text-white font-bold text-sm px-6 py-3 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg">
+                            Book Now
+                            <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- ============================================
+                     CARD 6: NIGERIA NATURE ESCAPE
+                     5 Days | Multiple Destinations | ₦200,000
+                ============================================ -->
+                <div class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-nigeria-green/20 flex flex-col h-full hover:-translate-y-2">
+                    
+                    <!-- Package Image -->
+                    <div class="relative h-52 sm:h-56 overflow-hidden">
+                        <img 
+                            src="https://kimi-web-img.moonshot.cn/img/thumbs.dreamstime.com/1f921dbb38e319c1bdf255f31de1e712a8e00e64.jpg" 
+                            alt="Nigeria Nature Escape package"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                        >
+                        <!-- Duration Badge -->
+                        <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-gray-900 text-xs font-bold px-3 py-1.5 rounded-full flex items-center gap-1.5">
+                            <svg class="w-3.5 h-3.5 text-nigeria-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            5 Days
+                        </div>
+                        <!-- Image overlay on hover -->
+                        <div class="absolute inset-0 bg-nigeria-green/0 group-hover:bg-nigeria-green/10 transition-colors duration-500"></div>
+                    </div>
+
+                    <!-- Card Content -->
+                    <div class="p-5 sm:p-6 flex flex-col flex-grow">
+                        <!-- Package Title -->
+                        <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-nigeria-green transition-colors duration-300">
+                            Nigeria Nature Escape
+                        </h3>
+
+                        <!-- Location -->
+                        <div class="flex items-center gap-1.5 text-gray-500 text-sm mb-3">
+                            <svg class="w-4 h-4 text-nigeria-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            Multiple Destinations
+                        </div>
+
+                        <!-- Price -->
+                        <div class="text-2xl font-black text-nigeria-green mb-3">
+                            ₦200,000
+                            <span class="text-sm font-medium text-gray-400">/ person</span>
+                        </div>
+
+                        <!-- Short Description -->
+                        <p class="text-gray-600 text-sm leading-relaxed mb-5 flex-grow">
+                            The ultimate Nigerian adventure. Journey across multiple states, from lush rainforests and savannas 
+                            to waterfalls and mountain ranges — a nature lover's dream come true.
+                        </p>
+
+                        <!-- Book Now Button -->
+                        <a href="#" class="w-full group/btn inline-flex items-center justify-center gap-2 bg-nigeria-green hover:bg-nigeria-green-dark text-white font-bold text-sm px-6 py-3 rounded-xl transition-all duration-300 shadow-md hover:shadow-lg">
+                            Book Now
+                            <svg class="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- End of Packages Cards Grid -->
+
+            <!-- ============================================
+                 VIEW ALL PACKAGES LINK
+                 Optional footer link for the section
+            ============================================ -->
+            <div class="text-center mt-12 sm:mt-16">
+                <a href="#" class="inline-flex items-center gap-2 text-nigeria-green font-semibold hover:text-nigeria-green-dark transition-colors duration-300 group">
+                    View All Packages
+                    <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+        <!-- End of Section Container -->
+
+    </section>
+    <!-- ============================================
+         FEATURED TRAVEL PACKAGES SECTION END
+    ============================================ -->
+
+</body>
+</html>
