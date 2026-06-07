@@ -1297,6 +1297,19 @@
       }
     }
   }
+  .group-active\:scale-110 {
+    &:is(:where(.group):active *) {
+      --tw-scale-x: 110%;
+      --tw-scale-y: 110%;
+      --tw-scale-z: 110%;
+      scale: var(--tw-scale-x) var(--tw-scale-y);
+    }
+  }
+  .group-active\:text-nigeria-green {
+    &:is(:where(.group):active *) {
+      color: var(--color-nigeria-green);
+    }
+  }
   .peer-checked\:block {
     &:is(:where(.peer):checked ~ *) {
       display: block;
@@ -1526,6 +1539,63 @@
     &:focus {
       --tw-outline-style: none;
       outline-style: none;
+    }
+  }
+  .active\:-translate-y-2 {
+    &:active {
+      --tw-translate-y: calc(var(--spacing) * -2);
+      translate: var(--tw-translate-x) var(--tw-translate-y);
+    }
+  }
+  .active\:scale-105 {
+    &:active {
+      --tw-scale-x: 105%;
+      --tw-scale-y: 105%;
+      --tw-scale-z: 105%;
+      scale: var(--tw-scale-x) var(--tw-scale-y);
+    }
+  }
+  .active\:border-nigeria-green\/20 {
+    &:active {
+      border-color: color-mix(in srgb, #00A86B 20%, transparent);
+      @supports (color: color-mix(in lab, red, red)) {
+        border-color: color-mix(in oklab, var(--color-nigeria-green) 20%, transparent);
+      }
+    }
+  }
+  .active\:bg-nigeria-green-dark {
+    &:active {
+      background-color: var(--color-nigeria-green-dark);
+    }
+  }
+  .active\:bg-white\/15 {
+    &:active {
+      background-color: color-mix(in srgb, #fff 15%, transparent);
+      @supports (color: color-mix(in lab, red, red)) {
+        background-color: color-mix(in oklab, var(--color-white) 15%, transparent);
+      }
+    }
+  }
+  .active\:text-green-600 {
+    &:active {
+      color: var(--color-green-600);
+    }
+  }
+  .active\:text-green-700 {
+    &:active {
+      color: var(--color-green-700);
+    }
+  }
+  .active\:shadow-2xl {
+    &:active {
+      --tw-shadow: 0 25px 50px -12px var(--tw-shadow-color, rgb(0 0 0 / 0.25));
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    }
+  }
+  .active\:shadow-xl {
+    &:active {
+      --tw-shadow: 0 20px 25px -5px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 8px 10px -6px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
     }
   }
   .sm\:-bottom-6 {
